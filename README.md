@@ -14,18 +14,3 @@ You **must** write up `README.md` for this repository to be eligable for readabi
 8. Add your relevant `requirements.txt` to the root directory. If you are unsure, run `pip3 list --format=freeze > requirements.txt` (or alternative) and copy the output to the repository.
 9. You may delete all `.gitkeep` files if you really want to. These were used to ensure empty directories could be pushed to `git`.
 10. When you have read this, delete the `Student Instructions` section to clean the readme up.
-
-Remember, we will be reading through and running your code, so it is in _your best interest_ to ensure it is readable and efficient.
-
-## README example
-This is an example `README.md` for students to use. **Please change this to your requirements**.
-
-**Research Goal:** My research goal is tip analysis for credit card payments
-
-**Timeline:** The timeline for the research area is 2018 - 2021.
-
-To run the pipeline, please visit the `scripts` directory and run the files in order:
-1. `download.py`: This downloads the raw data into the `data/landing` directory.
-2. `Data_Preprocessing.ipynb` and `Test_Data_Preprocessing.ipynb`: This notebook details all preprocessing steps and outputs it to the `data/raw` and `data/curated` directory.
-3. `Data_Exploration.ipynb`: This notebook is used to conduct analysis on the curated data.
-4. `Modelling.ipynb`: The script is used to run the model from CLI and the notebook is used for analysing and discussing the model.
